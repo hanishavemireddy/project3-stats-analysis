@@ -1,0 +1,20 @@
+```
+
+Paste this inside and save with **Ctrl+S**:
+```
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — never push large data files to GitHub
+data/processed/
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
